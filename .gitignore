@@ -3,3 +3,10 @@
 /dist
 # Local Netlify folder
 .netlify
+
+
+netlify/functions/events/**
+!netlify/functions/events/index.js
+
+netlify/builders/events/**
+!netlify/builders/events/index.js
