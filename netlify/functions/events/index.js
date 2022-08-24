@@ -19,6 +19,7 @@ async function handler(event) {
 
     return {
       statusCode: 200,
+      ttl: 60,
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
       },
