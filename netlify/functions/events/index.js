@@ -51,7 +51,7 @@ async function handler(event) {
 //    2. Also use `redirects: "netlify-toml-builders"` in your config file’s serverless bundler options:
 //       https://www.11ty.dev/docs/plugins/serverless/#bundler-options
 
-exports.handler = handler;
+// exports.handler = handler;
 
 const { builder } = require("@netlify/functions");
 exports.handler = builder(handler);
